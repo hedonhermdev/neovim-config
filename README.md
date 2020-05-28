@@ -18,6 +18,7 @@ Features:
 -   Git integration
 -   Spellcheck for markdown files
 -   Bunch of plugins for functionality like vim-surround, vim-repeat, etc.
+-   Silver Searcher to search through files
 
 # Screenshots
 
