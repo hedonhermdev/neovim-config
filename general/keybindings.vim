@@ -35,10 +35,10 @@ nnoremap <leader>F
 
 " Floaterm leader mappings
 "" Open ranger in floaterm
-nnoremap <leader>R :FloatermNew ranger<cr>
+nnoremap <leader>r :FloatermNew ranger<cr>
 
 "" Open fzf in floaterm
-nnoremap <leader>F :FloatermNew fzf<cr>
+nnoremap <leader>f :FloatermNew fzf<cr>
 
 "" NERDTree toggle
-nnoremap <leader>N :NERDTreeToggle<cr>
+nnoremap <leader>n :NERDTreeToggle<cr>

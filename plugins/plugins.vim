@@ -15,10 +15,11 @@ Plug 'rakr/vim-one' " Atom colorscheme for Vim
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} " Ranger support from inside Vim
 Plug 'mhinz/vim-startify' " Fancy start screen
 Plug 'liuchengxu/vim-which-key' " Show keybindings
+Plug 'liuchengxu/vista.vim' " Viewer for LSP symbols
 
 " Functionality
 Plug 'tpope/vim-surround' " Deal with pairs of surroundings
-Plug 'tpope/vim-commentary' " Faster commenting 
+Plug 'tpope/vim-commentary' " Faster commenting
 Plug 'tpope/vim-fugitive' " Git from inside Vim
 Plug 'airblade/vim-gitgutter' " Show Git changes in SignColumn
 Plug 'tpope/vim-repeat' " Repeat commands
@@ -27,7 +28,7 @@ Plug 'chiel92/vim-autoformat'
 
 " Searching
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --no-bash' } " FZF from inside Vim
-Plug 'junegunn/fzf.vim' " FZF Plugin 
+Plug 'junegunn/fzf.vim' " FZF Plugin
 Plug 'mileszs/ack.vim' " Silver searcher for Vim
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
