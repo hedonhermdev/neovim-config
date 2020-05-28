@@ -31,5 +31,14 @@ nnoremap ^ <nop>
 
 " Leader mappings
 nnoremap <leader>sv :source $MYVIMRC<cr> " Reload Vimrc
-nnoremap <leader>F :FloatermNew ranger<cr> " Open ranger in floatterm
+nnoremap <leader>F
 
+" Floaterm leader mappings
+"" Open ranger in floaterm
+nnoremap <leader>R :FloatermNew ranger<cr>
+
+"" Open fzf in floaterm
+nnoremap <leader>F :FloatermNew fzf<cr>
+
+"" NERDTree toggle
+nnoremap <leader>N :NERDTreeToggle<cr>

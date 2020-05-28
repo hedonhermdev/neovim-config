@@ -1,8 +1,3 @@
-
-" Open/Close NERDTree using Ctrl+N
-map <C-n> :NERDTreeToggle<CR>
-
-
 let NERDTreeShowHidden=1
 
 let g:NERDTreeDirArrowExpandable = '↠'

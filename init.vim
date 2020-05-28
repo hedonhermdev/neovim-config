@@ -16,6 +16,7 @@ source /Users/hedonhermdev/.config/nvim/general/options.vim
 source /Users/hedonhermdev/.config/nvim/general/keybindings.vim
 source /Users/hedonhermdev/.config/nvim/general/autocmds.vim
 source /Users/hedonhermdev/.config/nvim/general/theme.vim
+source /Users/hedonhermdev/.config/nvim/general/commands.vim
 
 source /Users/hedonhermdev/.config/nvim/plugins/coc.vim
 source /Users/hedonhermdev/.config/nvim/plugins/nerdtree.vim
