@@ -18,3 +18,12 @@ Features:
 -   Git integration
 -   Spellcheck for markdown files
 -   Bunch of plugins for functionality like vim-surround, vim-repeat, etc.
+
+# Screenshots
+
+![](img/nvim-five.png)
+![](img/nvim-one.png)
+![](img/nvim-two.png)
+![](img/nvim-three.png)
+![](img/nvim-four.png)
+
