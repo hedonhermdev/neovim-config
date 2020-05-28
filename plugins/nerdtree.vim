@@ -12,3 +12,6 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 
 let g:NERDTreeWinPos = "right"
 
+" Change the CWD when making a node the root node
+let g:NERDTreeChDirMode = 2
+
