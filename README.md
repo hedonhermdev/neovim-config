@@ -27,4 +27,3 @@ Features:
 ![](img/nvim-two.png)
 ![](img/nvim-three.png)
 ![](img/nvim-four.png)
-

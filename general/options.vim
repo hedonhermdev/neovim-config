@@ -27,6 +27,10 @@ set cursorline " Highlight the current line
 
 set noshowmode " Airline shows the current mode so we dont need to see -- INSERT --- anymore
 
+" Splitting
+set splitright
+set splitbelow
+
 " Tab == 4 spaces
 set tabstop=4
 set softtabstop=4

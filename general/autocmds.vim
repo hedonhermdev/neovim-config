@@ -1,11 +1,6 @@
-au BufWrite * :Autoformat
-
-
 augroup auto_spellcheck
-  autocmd BufNewFile,BufRead *.md setlocal spell
+    autocmd BufNewFile,BufRead *.md setlocal spell
 augroup END
-
-autocmd BufWrite * :Autoformat<CR>
 
 autocmd filetype python nnoremap <buffer> <F5> :w<CR>:FloatermNew python %<CR>
 autocmd filetype javascript nnoremap <buffer> <F5> :w<CR>:FloatermNew node %<CR>

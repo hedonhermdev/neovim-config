@@ -12,6 +12,7 @@ Plug 'voldikss/vim-floaterm' " Floating terminal window
 Plug 'junegunn/goyo.vim' " Distraction free writing
 Plug 'junegunn/limelight.vim' " Focus on current paragraph
 Plug 'rakr/vim-one' " Atom colorscheme for Vim
+Plug 'arcticicestudio/nord-vim' " Nord colorscheme for vim
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} " Ranger support from inside Vim
 Plug 'mhinz/vim-startify' " Fancy start screen
 Plug 'liuchengxu/vim-which-key' " Show keybindings
@@ -39,6 +40,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} " Conquerer of Completion
 Plug 'sheerun/vim-polyglot' " Language Pack
 Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'} " Go language support for Vim
 
+" Notetaking
+Plug 'plasticboy/vim-markdown'
+Plug 'vimwiki/vimwiki'
+Plug 'lervag/vimtex'
 
 call plug#end()
 
