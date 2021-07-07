@@ -21,7 +21,7 @@ if (empty($TMUX))
     endif
 endif
 
-colorscheme nord
+colorscheme one
 
 let g:one_allow_italics = 1
 
@@ -37,7 +37,7 @@ hi EndOfBuffer guifg=bg
 " hi Normal guifg=NONE guibg=NONE
 
 " Airline specific options
-let g:airline#extensions#tabline#enabled = 0 " Show tabline on top
+let g:airline#extensions#tabline#enabled = 1 " Show tabline on top
 let g:airline_theme = 'one'
 let g:airline_powerline_fonts = 1
 let g:airline_left_sep = ''

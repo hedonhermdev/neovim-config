@@ -22,3 +22,4 @@ source /Users/hedonhermdev/.config/nvim/plugins/coc.vim
 source /Users/hedonhermdev/.config/nvim/plugins/nerdtree.vim
 source /Users/hedonhermdev/.config/nvim/plugins/floaterm.vim
 source /Users/hedonhermdev/.config/nvim/plugins/startify.vim
+source /Users/hedonhermdev/.config/nvim/plugins/treesitter.vim

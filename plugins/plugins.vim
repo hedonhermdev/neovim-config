@@ -12,11 +12,16 @@ Plug 'voldikss/vim-floaterm' " Floating terminal window
 Plug 'junegunn/goyo.vim' " Distraction free writing
 Plug 'junegunn/limelight.vim' " Focus on current paragraph
 Plug 'rakr/vim-one' " Atom colorscheme for Vim
+Plug 'flazz/vim-colorschemes'
+Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'arcticicestudio/nord-vim' " Nord colorscheme for vim
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} " Ranger support from inside Vim
 Plug 'mhinz/vim-startify' " Fancy start screen
-Plug 'liuchengxu/vim-which-key' " Show keybindings
-Plug 'liuchengxu/vista.vim' " Viewer for LSP symbols
+Plug 'shaunsingh/moonlight.nvim'
+Plug 'rafamadriz/neon'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " Functionality
 Plug 'tpope/vim-surround' " Deal with pairs of surroundings
@@ -26,10 +31,12 @@ Plug 'airblade/vim-gitgutter' " Show Git changes in SignColumn
 Plug 'tpope/vim-repeat' " Repeat commands
 Plug 'christoomey/vim-system-copy' " Copy to system clipboard
 Plug 'chiel92/vim-autoformat'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'liuchengxu/vista.vim'
 
 " Searching
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --no-bash' } " FZF from inside Vim
-Plug 'junegunn/fzf.vim' " FZF Plugin
+" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --no-bash' } " FZF from inside Vim
+" Plug 'junegunn/fzf.vim' " FZF Plugin
 Plug 'mileszs/ack.vim' " Silver searcher for Vim
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
